@@ -1,0 +1,43 @@
+.references{
+    padding: 80px 0 50px;
+    &__title{
+        @include title;
+        font-weight: 700;
+        margin-bottom: 60px;
+    }
+    &__wrapper{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    &__item{
+        display: flex;
+        margin-bottom: 60px;
+        align-items: flex-start;
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+    &__text{
+        margin-left: 60px;
+    }
+    &__subtile{
+        font-weight: 700;
+        font-size: 18px;
+    }
+    &__amount{
+        color: $second-color;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    &__descr{
+        max-width: 650px;
+        font-weight: 300;
+        font-size: 16px;
+    }
+    &__img{
+        max-width: 100%;
+        object-fit: cover;
+    }
+
+}

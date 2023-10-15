@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 21px 0 91px;
+    text-align: center;
+    &__logo{
+        max-width: 100%;
+        object-fit: cover;
+    }
+    &__official{
+        font-size: 12px;
+    }
+    &__official span{
+        display: block;
+        margin-bottom: 7px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    &__contacts a{
+        display: block;
+    }
+    &__phone{
+        margin-bottom: 4px;
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    &__btn{
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 500;
+        padding: 5px 6px;
+    }
+}

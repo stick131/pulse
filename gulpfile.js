@@ -24,6 +24,8 @@ gulp.task('server',function() {
 
 
     gulp.watch("src/*.html").on('change', browserSync.reload);
+    gulp.watch("src/**/*.css").on('change', browserSync.reload);
+    gulp.watch("src/**/*.js").on('change', browserSync.reload);
     gulp.watch('src/sass/**/*.+(scss|sass)', gulp.series('styles'));
     //gulp.watch("src/sass/*.+(scss|sass)"), gulp.parallel("styles");
     //gulp.watch("src/*.html").on('change', browserSync);

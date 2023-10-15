@@ -1,0 +1,46 @@
+.consultation{
+    padding: 100px 0 108px;
+    background: url("../images/cosulation-bg.jpg") center center/cover no-repeat;
+    color: #fff;
+    &__title{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 54px;
+        margin-bottom: 8px;
+        text-transform: uppercase;
+        max-width: 800px;
+    }
+    &__subtitle{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        max-width: 426px;
+        display: inline-block;
+        margin-bottom: 36px;
+    }
+    &__form__container{
+      display: flex;
+      flex-direction: column;
+     
+    }
+    &__form__item{
+        display: block;
+        margin-bottom: 11px;
+        width: 303px;
+        height: 54px;
+        &:last-child{
+            margin-bottom: 17px;
+        }
+        &::placeholder{
+            font-family: 'Museo Sans Cyrl', sans-serif;
+            padding: 20px 0 20px 21px;
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+    &__btn{
+        color: #fff;
+        margin-bottom: 0;
+        align-self: flex-start;
+    }
+}

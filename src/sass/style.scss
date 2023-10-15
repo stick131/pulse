@@ -1,0 +1,56 @@
+*{  
+    font-family: 'Museo Sans Cyrl', sans-serif;
+  
+}
+
+.container{
+    max-width: 970px;
+    padding: 0 10px 0;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+h1,h2,h3,h4,h5,h6{
+
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding-left: 0;
+}
+
+.button{
+    border: none;
+    border-radius: 5px;
+    background-color: #C70101;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff;
+}
+
+@import "base/variebles";
+@import "base/mixins";
+@import "blocks/promo";
+@import "blocks/header";
+@import "blocks/advantages";
+@import "blocks/consultation";
+@import "blocks/carousel";
+@import "blocks/catalog";
+@import "blocks/references";
+
+
+@import "blocks/adaptive";
+
+
+
+
