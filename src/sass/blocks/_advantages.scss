@@ -44,4 +44,13 @@
         color:$link-color;
         text-decoration: underline;
     }
+    &__img{
+        animation-name: heartbeat; // подключаем анимацию
+        animation-duration: 1.5s; // время действия одной анимации
+        animation-timing-function: ease; // скорость анимации между каждой парой ключевых кадров.
+        animation-iteration-count: infinite; //Анимация проигрывается бесконечно(кол-во раз делаетя анимация)
+        &:hover{
+            animation-play-state: paused; // при навидении анимация останавливается
+        }
+    }
 }

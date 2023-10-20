@@ -28,14 +28,11 @@
         margin-bottom: 11px;
         width: 303px;
         height: 54px;
+        border: none;
+        border-radius: 10px;
+        padding: 20px 0 20px 21px;
         &:last-child{
             margin-bottom: 17px;
-        }
-        &::placeholder{
-            font-family: 'Museo Sans Cyrl', sans-serif;
-            padding: 20px 0 20px 21px;
-            font-size: 14px;
-            font-weight: 400;
         }
     }
     &__btn{

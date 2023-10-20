@@ -40,6 +40,7 @@ ul{
 
 @import "base/variebles";
 @import "base/mixins";
+@import "base/animation";
 @import "blocks/promo";
 @import "blocks/header";
 @import "blocks/advantages";
@@ -47,7 +48,9 @@ ul{
 @import "blocks/carousel";
 @import "blocks/catalog";
 @import "blocks/references";
-
+@import "blocks/footer";
+@import "blocks/modal";
+@import "blocks/up";
 
 @import "blocks/adaptive";
 
